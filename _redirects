@@ -1,0 +1,8 @@
+# Cloudflare Pages Redirects
+/*    /index.html   200
+
+# Optional: Redirect common URLs
+/home /
+/about /#impact
+/contact /#early-access
+/demo /#features

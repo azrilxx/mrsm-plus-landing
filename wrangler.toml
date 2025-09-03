@@ -1,0 +1,21 @@
+# Cloudflare Pages configuration for MRSM Plus Landing Page
+name = "mrsm-plus-landing"
+account_id = "f42f0c63d485c9363d1d62042f9c3658"
+compatibility_date = "2023-12-01"
+
+# Pages configuration
+[env.production]
+name = "muvondigital-my"
+account_id = "f42f0c63d485c9363d1d62042f9c3658"
+compatibility_date = "2023-12-01"
+
+# Build configuration
+[[build]]
+command = "npm run build"
+cwd = ""
+watch_dir = "src"
+
+# Static assets
+[[rules]]
+type = "File"
+globs = ["**/*"]
